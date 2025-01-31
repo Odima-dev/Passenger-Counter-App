@@ -9,7 +9,8 @@ function increment() {
 
 function save() {
 let countStr = countEl.innerText + "-"
+document.getElementById("save-el").textContent += countStr;
 
-document.getElementById("save-el").textContent += countStr
-
+countEl.textContent = 0;
+count = 0;
 }

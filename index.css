@@ -12,8 +12,8 @@ div {
     margin-top: 250px;
     margin-left: 300px;
     margin-right: 280px;
-    width: 50%;
-    height: 280px;
+    width: auto;
+    height: auto;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.7); /* Light white overlay */
     background-blend-mode: overlay; 
@@ -51,3 +51,15 @@ button:hover {
     background-color: green;
 }
 
+p {
+    padding: 15px;
+    font-size: 18px;
+    color: green;
+}
+
+footer {
+    margin-top: 330px;
+    margin-bottom: 5px;
+    color: green;
+    font-style: italic;
+}
